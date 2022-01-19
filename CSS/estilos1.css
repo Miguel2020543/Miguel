@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#inicio img{
+	width: 200px;
+}
+#inicio{
+	/*background-image: url(../IMG/textura.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;*/
+}
+#acerca{
+	height: 100vh;
+}
+.habilidades{
+	height: 100vh;
+}
+.habilidades #habilidades{
+	padding-top: 2em;
+	text-align: center;
+}
+.habilidades img{
+	width: 150px;
+}
+.habilidades .img{
+	text-align: center;
+}
+.habilidades p{
+	margin-top: 2em;
+	margin-left: 2em;
+}
+.habilidades .html{
+	display: flex;
+	align-items: center;
+	width: 70%;
+}
+.habilidades .html p{
+	margin: none;
+	text-align: justify;
+}
+.contacto{
+	/*display: flex;
+	align-items: center;
+	justify-content: space-between;*/
+	text-align: center;
+
+}
+.contacto p{
+	width: 70%;
+	margin: auto;
+	text-align: justify;
+	margin-bottom: 1em;
+}
+.contacto .iconos{
+	word-spacing: 2em;
+}
+.contacto .iconos a{
+	border: 1px solid black;
+	font-size: 2em;
+	padding: 0.5em;
+	color: black;
+}
+.contacto .iconos a:hover{
+	background: blue;
+	color: white;
+	transition-duration: 1s;
+}
+#nav{
+	position: fixed;
+	width: 100%;
+}
+.row{
+	border: 1px solid black;
+	width: 80%;
+	height: 20em;
+}
+.perfil{
+	text-align: center;
+	height: 100vh;
+	padding-top: 15%;
+}
+.perfil img{
+	width: 100px;
+}
+.perfil p{
+	width: 50%;
+	text-align: justify;
+}
+footer{
+	background: black;
+	padding: 1.5em;
+	text-align: center;
+	margin-top: 2em;
+	color: white;
+}

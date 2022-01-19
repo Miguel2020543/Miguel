@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: lightcyan;
+}
+header{
+	background: black;
+	padding: 1em 5em;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	width: 100%;
+}
+header a{
+	color: white;
+	text-decoration: none;
+}
+section h1{
+	text-align: center;
+	margin-top: 3em;
+	font-size: 3em;
+}
+section h2{
+	text-align: center;
+	font-size: 1.5em;
+}
+.inicio p{
+	text-align: center;
+	margin-top: 2em;
+	border: 2px solid black;
+	width: 50%;
+	font-size: 1.2em;
+	padding: 1em;
+	border-radius: 10px;
+	background: white;
+	box-shadow: 3px 3px 4px black;
+}
+div{
+	display: flex;
+	justify-content: center;
+}
+.inicio{
+	height: 100vh;
+}
+.informacion{
+	height: 100vh;
+}
+.informacion h1{
+	text-align: left;
+	font-size: 2em;
+}
+.informacion img{
+	width: 350px;
+	height: 300px;
+	float: left;
+	margin-top: 3em;
+	border-radius: 100%;
+}
+.informacion p{
+	display: flex;
+	justify-content: center;
+	text-align: justify;
+	border: none;
+	width: 50%;
+	font-size: 1.5em;
+	margin-top: 1em;
+}
+.habilidades{
+	height: 100vh;
+}
+.habilidades .hab{
+	/*display: flex;
+	justify-content: justify;*/
+	width: 100%;
+	border: none;
+	text-align: justify;
+	font-size: 1.2em;
+	margin-top: 1em;
+}
+.habilidades h2{
+	text-align: left;
+	font-size: 2em;
+}
+.habilidades p{
+	width: 50%;
+	font-size: 1.2em;
+	text-align: justify;
+}
+.principal{
+	margin-top: 100px;
+}
